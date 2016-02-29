@@ -1,0 +1,182 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Name>BUMC_ED_Educator_Portal</Name>
+    <ProjectGuid>{7a4ba0df-7c7c-4c05-97e3-b26b68d7e6a0}</ProjectGuid>
+    <RootNamespace>BUMC_ED_Educator_Portal</RootNamespace>
+    <OutputType>Library</OutputType>
+    <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <IncludeDebugInformation>true</IncludeDebugInformation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <IncludeDebugInformation>false</IncludeDebugInformation>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="control\connection.php" />
+    <Compile Include="css\bootstrap.css" />
+    <Compile Include="css\bootstrap.min.css" />
+    <Compile Include="css\signin.css" />
+    <Compile Include="css\simple-sidebar.css" />
+    <Compile Include="Datatables\Bootstrap-3.3.5\css\bootstrap-theme.css" />
+    <Compile Include="Datatables\Bootstrap-3.3.5\css\bootstrap-theme.css.map" />
+    <Compile Include="Datatables\Bootstrap-3.3.5\css\bootstrap-theme.min.css" />
+    <Compile Include="Datatables\Bootstrap-3.3.5\css\bootstrap.css" />
+    <Compile Include="Datatables\Bootstrap-3.3.5\css\bootstrap.css.map" />
+    <Compile Include="Datatables\Bootstrap-3.3.5\css\bootstrap.min.css" />
+    <Compile Include="Datatables\Bootstrap-3.3.5\fonts\glyphicons-halflings-regular.eot" />
+    <Compile Include="Datatables\Bootstrap-3.3.5\fonts\glyphicons-halflings-regular.svg" />
+    <Compile Include="Datatables\Bootstrap-3.3.5\fonts\glyphicons-halflings-regular.ttf" />
+    <Compile Include="Datatables\Bootstrap-3.3.5\fonts\glyphicons-halflings-regular.woff" />
+    <Compile Include="Datatables\Bootstrap-3.3.5\fonts\glyphicons-halflings-regular.woff2" />
+    <Compile Include="Datatables\Bootstrap-3.3.5\js\bootstrap.js" />
+    <Compile Include="Datatables\Bootstrap-3.3.5\js\bootstrap.min.js" />
+    <Compile Include="Datatables\Bootstrap-3.3.5\js\npm.js" />
+    <Compile Include="Datatables\Buttons-1.1.0\css\buttons.bootstrap.css" />
+    <Compile Include="Datatables\Buttons-1.1.0\css\buttons.bootstrap.min.css" />
+    <Compile Include="Datatables\Buttons-1.1.0\css\buttons.dataTables.css" />
+    <Compile Include="Datatables\Buttons-1.1.0\css\buttons.dataTables.min.css" />
+    <Compile Include="Datatables\Buttons-1.1.0\css\buttons.foundation.css" />
+    <Compile Include="Datatables\Buttons-1.1.0\css\buttons.foundation.min.css" />
+    <Compile Include="Datatables\Buttons-1.1.0\css\buttons.jqueryui.css" />
+    <Compile Include="Datatables\Buttons-1.1.0\css\buttons.jqueryui.min.css" />
+    <Compile Include="Datatables\Buttons-1.1.0\css\common.scss" />
+    <Compile Include="Datatables\Buttons-1.1.0\css\mixins.scss" />
+    <Compile Include="Datatables\Buttons-1.1.0\js\buttons.bootstrap.js" />
+    <Compile Include="Datatables\Buttons-1.1.0\js\buttons.bootstrap.min.js" />
+    <Compile Include="Datatables\Buttons-1.1.0\js\buttons.colVis.js" />
+    <Compile Include="Datatables\Buttons-1.1.0\js\buttons.colVis.min.js" />
+    <Compile Include="Datatables\Buttons-1.1.0\js\buttons.flash.js" />
+    <Compile Include="Datatables\Buttons-1.1.0\js\buttons.flash.min.js" />
+    <Compile Include="Datatables\Buttons-1.1.0\js\buttons.foundation.js" />
+    <Compile Include="Datatables\Buttons-1.1.0\js\buttons.foundation.min.js" />
+    <Compile Include="Datatables\Buttons-1.1.0\js\buttons.html5.js" />
+    <Compile Include="Datatables\Buttons-1.1.0\js\buttons.html5.min.js" />
+    <Compile Include="Datatables\Buttons-1.1.0\js\buttons.jqueryui.js" />
+    <Compile Include="Datatables\Buttons-1.1.0\js\buttons.jqueryui.min.js" />
+    <Compile Include="Datatables\Buttons-1.1.0\js\buttons.print.js" />
+    <Compile Include="Datatables\Buttons-1.1.0\js\buttons.print.min.js" />
+    <Compile Include="Datatables\Buttons-1.1.0\js\dataTables.buttons.js" />
+    <Compile Include="Datatables\Buttons-1.1.0\js\dataTables.buttons.min.js" />
+    <Compile Include="Datatables\Buttons-1.1.0\swf\flashExport.swf" />
+    <Compile Include="Datatables\DataTables-1.10.10\css\dataTables.bootstrap.css" />
+    <Compile Include="Datatables\DataTables-1.10.10\css\dataTables.bootstrap.min.css" />
+    <Compile Include="Datatables\DataTables-1.10.10\css\dataTables.foundation.css" />
+    <Compile Include="Datatables\DataTables-1.10.10\css\dataTables.foundation.min.css" />
+    <Compile Include="Datatables\DataTables-1.10.10\css\dataTables.jqueryui.css" />
+    <Compile Include="Datatables\DataTables-1.10.10\css\dataTables.jqueryui.min.css" />
+    <Compile Include="Datatables\DataTables-1.10.10\css\jquery.dataTables.css" />
+    <Compile Include="Datatables\DataTables-1.10.10\css\jquery.dataTables.min.css" />
+    <Compile Include="Datatables\DataTables-1.10.10\css\jquery.dataTables_themeroller.css" />
+    <Compile Include="Datatables\DataTables-1.10.10\images\sort_asc.png" />
+    <Compile Include="Datatables\DataTables-1.10.10\images\sort_asc_disabled.png" />
+    <Compile Include="Datatables\DataTables-1.10.10\images\sort_both.png" />
+    <Compile Include="Datatables\DataTables-1.10.10\images\sort_desc.png" />
+    <Compile Include="Datatables\DataTables-1.10.10\images\sort_desc_disabled.png" />
+    <Compile Include="Datatables\DataTables-1.10.10\js\dataTables.bootstrap.js" />
+    <Compile Include="Datatables\DataTables-1.10.10\js\dataTables.bootstrap.min.js" />
+    <Compile Include="Datatables\DataTables-1.10.10\js\dataTables.foundation.js" />
+    <Compile Include="Datatables\DataTables-1.10.10\js\dataTables.foundation.min.js" />
+    <Compile Include="Datatables\DataTables-1.10.10\js\dataTables.jqueryui.js" />
+    <Compile Include="Datatables\DataTables-1.10.10\js\dataTables.jqueryui.min.js" />
+    <Compile Include="Datatables\DataTables-1.10.10\js\jquery.dataTables.js" />
+    <Compile Include="Datatables\DataTables-1.10.10\js\jquery.dataTables.min.js" />
+    <Compile Include="Datatables\jQuery-1.11.3\jquery-1.11.3.js" />
+    <Compile Include="Datatables\jQuery-1.11.3\jquery-1.11.3.min.js" />
+    <Compile Include="Datatables\pdfmake-0.1.18\build\pdfmake.js" />
+    <Compile Include="Datatables\pdfmake-0.1.18\build\pdfmake.min.js" />
+    <Compile Include="Datatables\pdfmake-0.1.18\build\vfs_fonts.js" />
+    <Compile Include="Datatables\Scroller-1.4.0\css\scroller.bootstrap.css" />
+    <Compile Include="Datatables\Scroller-1.4.0\css\scroller.bootstrap.min.css" />
+    <Compile Include="Datatables\Scroller-1.4.0\css\scroller.dataTables.css" />
+    <Compile Include="Datatables\Scroller-1.4.0\css\scroller.dataTables.min.css" />
+    <Compile Include="Datatables\Scroller-1.4.0\css\scroller.foundation.css" />
+    <Compile Include="Datatables\Scroller-1.4.0\css\scroller.foundation.min.css" />
+    <Compile Include="Datatables\Scroller-1.4.0\css\scroller.jqueryui.css" />
+    <Compile Include="Datatables\Scroller-1.4.0\css\scroller.jqueryui.min.css" />
+    <Compile Include="Datatables\Scroller-1.4.0\js\dataTables.scroller.js" />
+    <Compile Include="Datatables\Scroller-1.4.0\js\dataTables.scroller.min.js" />
+    <Compile Include="Datatables\datatables.css" />
+    <Compile Include="Datatables\datatables.js" />
+    <Compile Include="Datatables\datatables.min.css" />
+    <Compile Include="Datatables\datatables.min.js" />
+    <Compile Include="fonts\glyphicons-halflings-regular (1).eot" />
+    <Compile Include="fonts\glyphicons-halflings-regular (1).svg" />
+    <Compile Include="fonts\glyphicons-halflings-regular (1).ttf" />
+    <Compile Include="fonts\glyphicons-halflings-regular (1).woff" />
+    <Compile Include="fonts\glyphicons-halflings-regular (1).woff2" />
+    <Compile Include="fonts\glyphicons-halflings-regular.eot" />
+    <Compile Include="fonts\glyphicons-halflings-regular.svg" />
+    <Compile Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Compile Include="fonts\glyphicons-halflings-regular.woff" />
+    <Compile Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Compile Include="images\favicon.ico" />
+    <Compile Include="images\logo-banner-umc-no_text.png" />
+    <Compile Include="images\logo-banner-umc-small.png" />
+    <Compile Include="images\logo-banner-umc.png" />
+    <Compile Include="includes\footer.php" />
+    <Compile Include="includes\header.php" />
+    <Compile Include="includes\nav.php" />
+    <Compile Include="js\bootstrap (1).js" />
+    <Compile Include="js\bootstrap.js" />
+    <Compile Include="js\bootstrap.min (1).js" />
+    <Compile Include="js\bootstrap.min.js" />
+    <Compile Include="js\ie-emulation-modes-warning (1).js" />
+    <Compile Include="js\ie-emulation-modes-warning.js" />
+    <Compile Include="js\ie10-viewport-bug-workaround (1).js" />
+    <Compile Include="js\ie10-viewport-bug-workaround.js" />
+    <Compile Include="js\jquery (1).js" />
+    <Compile Include="js\jquery.js" />
+    <Compile Include="certifications.php" />
+    <Compile Include="classes.php" />
+    <Compile Include="class_certs.php" />
+    <Compile Include="class_sessions.php" />
+    <Compile Include="employees.php" />
+    <Compile Include="emp_certs.php" />
+    <Compile Include="emp_leaderships.php" />
+    <Compile Include="emp_shifts.php" />
+    <Compile Include="functionalunits.php" />
+    <Compile Include="getclassrooms.php" />
+    <Compile Include="index.php" />
+    <Compile Include="locations.php" />
+    <Compile Include="queryCertifications.php" />
+    <Compile Include="queryClassCerts.php" />
+    <Compile Include="queryClasses.php" />
+    <Compile Include="queryClassSessions.php" />
+    <Compile Include="queryEmpCerts.php" />
+    <Compile Include="queryEmpLeaders.php" />
+    <Compile Include="queryEmployees.php" />
+    <Compile Include="queryEmpShifts.php" />
+    <Compile Include="queryFunctionalUnits.php" />
+    <Compile Include="response.php" />
+    <Compile Include="Signin.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="control" />
+    <Folder Include="css" />
+    <Folder Include="Datatables\Bootstrap-3.3.5\css" />
+    <Folder Include="Datatables\Bootstrap-3.3.5\fonts" />
+    <Folder Include="Datatables\Bootstrap-3.3.5\js" />
+    <Folder Include="Datatables\Bootstrap-3.3.5" />
+    <Folder Include="Datatables\Buttons-1.1.0\css" />
+    <Folder Include="Datatables\Buttons-1.1.0\js" />
+    <Folder Include="Datatables\Buttons-1.1.0\swf" />
+    <Folder Include="Datatables\Buttons-1.1.0" />
+    <Folder Include="Datatables\DataTables-1.10.10\css" />
+    <Folder Include="Datatables\DataTables-1.10.10\images" />
+    <Folder Include="Datatables\DataTables-1.10.10\js" />
+    <Folder Include="Datatables\DataTables-1.10.10" />
+    <Folder Include="Datatables\jQuery-1.11.3" />
+    <Folder Include="Datatables\pdfmake-0.1.18\build" />
+    <Folder Include="Datatables\pdfmake-0.1.18" />
+    <Folder Include="Datatables\Scroller-1.4.0\css" />
+    <Folder Include="Datatables\Scroller-1.4.0\js" />
+    <Folder Include="Datatables\Scroller-1.4.0" />
+    <Folder Include="Datatables" />
+    <Folder Include="fonts" />
+    <Folder Include="images" />
+    <Folder Include="includes" />
+    <Folder Include="js" />
+  </ItemGroup>
+</Project>
